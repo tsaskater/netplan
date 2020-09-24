@@ -4,9 +4,9 @@ network:
   version: 2
   renderer: networkd
   ethernets:
-    ens18:
+    ens33:
      dhcp4: no
-     addresses: [A.A.A.A/24]
-     gateway4: G.G.G.G
+     addresses: [192.168.50.20/24]
+     gateway4: 192.168.50.1
      nameservers:
-       addresses: [N.N.N.N]
+       addresses: [192.168.50.1]
